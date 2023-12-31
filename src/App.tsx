@@ -1,4 +1,4 @@
-import GoingAroungClockHand from "./components/GoingAroundClockHand";
+import GoingAroungClockHand from './components/GoingAroundClockHand';
 
 const App = () => {
   return <GoingAroungClockHand />
