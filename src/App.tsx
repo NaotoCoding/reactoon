@@ -18,7 +18,7 @@ const App = () => (
         <img src='tailwind-logo.svg' width='140px' height='140px'/>
       </ImagesCarousel>
       <BasicCard
-        title="This site isn't sponsered by these services."
+        title="This site isn't sponsored by these services."
         description='This site is an individual site using these services. Thank you.'
         width='100%'
         minHeight='100px'
