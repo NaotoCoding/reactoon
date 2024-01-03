@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import { Box, ChakraProvider } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { useEffect } from 'react';
 import UnnecessaryAlert from './components/UnnecessaryAlert';
 import useLoading from './hooks/useLoading';
@@ -12,8 +12,7 @@ const App = () => {
 
   return(
     <Loading width='100%' height='100vh' message="If you wonder what this site is loading, you're being duped, because it's loading nothing.">
-      <ChakraProvider>
-        <Header />
+      <Header />
         <UnnecessaryAlert />
         <Box width='90%' margin='auto' marginTop='30px'>
           <div style={{marginBottom: '100px'}}>
@@ -23,7 +22,6 @@ const App = () => {
             <Performance />
           </div>
         </Box>
-      </ChakraProvider>
     </Loading>
   )
 };
